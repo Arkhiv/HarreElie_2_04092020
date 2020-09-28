@@ -1,0 +1,788 @@
+/* HEADER - NAV BAR - LOGO */
+
+*,*::after,*::before{
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+}
+
+header
+{
+    display: flex;
+    padding: 0 20px;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+section
+{
+  padding: 1rem;
+}
+h3{
+    font-weight: 900;
+}
+i.inactive
+{
+    color: #F2F2F2;
+}
+.logoreservia
+{
+    display: flex;
+    flex: 1;
+}
+.logoreservia img
+{
+    height: 50px;
+    width: 120px;
+}
+
+.navbar
+{
+    display: flex ;
+    flex: 1 0 0;
+    justify-content: space-around;
+    padding-top: 15px;
+
+}
+
+.navbar a:link
+{
+    text-decoration: none;
+}
+.navbar a:hover
+{
+    color: #0065FC;
+}
+.sign
+{
+    color: #0065FC;
+
+}
+
+.title
+{
+    font-size: 0.75em;
+}
+
+.subtitle
+{
+    font-size: 1.4em;
+}
+
+#responsivemenu
+{
+    display: none;
+}
+
+
+
+
+
+
+/* SEARCH + FILTERS*/
+
+.search
+{
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 20px 0;
+}
+.research
+{
+    background-color: #0065FC;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+    
+}
+
+#researchlogo
+{
+    display: none;
+}
+
+input::placeholder
+{
+   font-weight: bold;
+   padding-left: 10px;
+   font-weight: 600;
+   color: black;
+}
+input
+{
+    border: 1px solid #F2F2F2 ;
+}
+.research a:link
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.iconposi
+{
+    background-color: #F2F2F2 ;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+}
+
+.fa-map-marker-alt
+{
+    padding: 10px;
+}
+
+
+
+.divfiltres
+{
+    display: flex;
+    align-items: center;
+}
+
+.filtres
+{
+    border-right: 2px solid  #F2F2F2 ;
+    border-top: 2px solid  #F2F2F2 ;
+    border-bottom: 2px solid  #F2F2F2 ;
+    padding-right: 5px;
+    border-radius: 25px;;
+    align-items: center;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.filtres a
+{
+   padding: 0 10px;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+.filtres a:hover
+{
+    color: #0065FC;
+    
+    
+}
+
+
+.filtres i
+{
+    background-color: #DEEBFF ;
+    border-radius: 50%;
+    color: #0065FC;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info i
+{
+
+    border: 1px solid #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.info
+{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#blockfilter
+{
+    padding: 0 20px;
+}
+
+
+
+/* BODY */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* SECTION "HEBERGEMENTS A MARSEILLE" */
+
+.ville
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 40px;
+}
+
+.hebergement
+{  
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.heber6b
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.h3heb
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.imgfill
+{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 18px 18px 0 0 ;
+}
+#cannb
+{
+    background-image: url("img/cannb.jpg");
+
+}
+#hport
+{
+    background-image: url("img/hport.jpg");
+}
+
+#hmouet
+{
+    background-image: url("img/hmouet.jpg");
+}
+
+#hmer
+{
+    background-image: url("img/hmer.jpg");
+}
+#hpanier
+{
+    background-image: url("img/hpanier.jpg");
+}
+#hamina
+{
+    background-image: url("img/hamina.jpg");
+
+}
+
+.hotel
+{  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 5px 5px;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    align-content: space-around;
+    flex-direction: column;
+    flex: 1 1 calc(33% - 80px);
+}
+
+.hotel a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.hotel a:hover p.hname
+{
+    color: #0065FC;
+}
+
+.hotel a p, .hotelpop a p
+{
+    margin: 0;
+    padding-bottom: 5px;
+    
+}
+.starblock
+{
+    margin: 0;
+}
+.hname
+{
+    font-weight: 600;
+}
+
+.fa-star
+{
+    color: #0065FC ;
+}
+.htextblock
+{
+    padding: 10px 10px;
+}
+.text2
+{
+    flex: 1 0 0;
+}
+.stars
+{
+    flex: 0;
+}
+
+/* SECTION "LES PLUS POPULAIRES" */
+
+
+.populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#pop3
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hotelpop
+{   display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 400px;
+    height: 140px;
+    padding: 5px 5px;
+    margin: 5px;
+
+}
+
+.hotelpop a
+{
+    color: black;
+}
+.hotelpop a:hover p
+{
+    color: #0065FC;
+}
+
+.imgfillpop
+{
+    width: 140px;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 18px 0 0 18px ;
+    
+}
+#hbleubl
+{
+    background-image: url("img/hbleubl.jpg");
+}
+#heau
+{
+    background-image: url("img/heau.jpg");
+}
+
+#hsolmat
+{
+    background-image: url("img/hsolmat.jpg");
+}
+.poptext
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.populaires a
+{
+    display: flex;
+    width: inherit;
+    text-decoration: none;
+}
+
+
+
+#h2logo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#affiplus
+{
+    padding-top: 10px;
+}
+#affiplus a
+{
+    color: black;
+    text-decoration: none;
+
+}
+
+#affiplus a:hover h3
+{
+    color: #0065FC;
+}
+
+/*SECTION "ACTIVITES A MARSEILLE" */
+
+.blockacti
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 45vh;
+    gap: 1rem;
+}
+
+.h3acti
+{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.imgacti a
+{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    text-decoration: none;
+    color: black;
+    flex: 1 0 0;
+
+}
+.imgacti a:hover
+{
+    color: #0065FC;
+}
+
+.imgacti h4
+{
+    padding: 5px;
+}
+
+
+.imgfillacti
+{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border-radius: 18px 18px 0 0 ;
+    
+}
+#vport
+{
+    background-image: url("img/vport.jpg");
+}
+
+#fortpom
+{
+    background-image: url("img/fortpom.jpg");
+}
+
+#friout
+{
+    background-image: url("img/friout.jpg");
+}
+
+#calanq
+{
+    background-image: url("img/calanq.jpg");
+}
+#damegarde
+{
+    background-image: url("img/damegarde.jpg");
+}
+
+#longchamp
+{
+    background-image: url("img/longchamp.jpg");
+}
+
+
+#divpom
+{
+    flex: 2;
+    /* padding: 0 1rem 1rem 1rem; */
+}
+#divfri
+{
+    flex: 1 0 0;
+    /* padding: 1rem 1rem 0 1rem; */
+}
+
+
+#divdam
+{
+    flex: 2;
+    /* padding: 0 0 1rem 1rem; */
+}
+#divlon
+{
+    flex: 1 0 0;
+    /* padding: 1rem 0 0 1rem; */
+}
+#divvpo
+{
+    /* padding-right: 1rem; */
+}
+#divcal
+{
+    /* padding: 0 1rem; */
+}
+
+
+
+#blockacti1
+{
+    display: flex ;
+    flex-direction: column;
+}
+
+#blockacti2
+{
+    display: flex ;
+    flex-direction: column;
+}
+
+.acti4
+{
+    display: flex;
+    flex: 1 0 0;
+    gap: 1rem;
+
+    width: 100%;
+
+}
+
+.titreacti
+{
+    padding: 0 1rem;
+    font-weight: 600;
+    padding: 10px;
+}
+
+
+/* FOOTER */
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+
+}
+footer a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+footer li
+{
+    padding-bottom: 10px;
+}
+footer ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+footer a:hover
+{
+    color: #0065FC;
+}
+
+footer>div
+{
+    flex: 1 0 0;
+}
+
+
+
+
+ /* RESPONSIVE */
+
+
+@media all and (max-width: 812px)
+{          
+    .ville
+     {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       padding: 0;
+     }
+
+     .hebergement
+     {
+         order: 1;
+         background-color: white;
+         
+
+     }
+     .populaires
+     {
+         border-radius: 0;
+
+     }
+     .hotel
+     {
+         text-align: start;
+         flex: 1 1 100%;
+
+     }
+     .filtres
+     {
+         margin-bottom: 10px;
+     }
+     .divfiltres
+     {
+         flex-wrap: wrap;
+     }
+     .divfiltres p
+     {
+         width: 100%;
+     }
+     .info
+     {
+        display: flex;
+        padding-bottom: 10px;
+     }
+     .search
+     {
+         justify-content: center;
+     }
+     .blockacti
+     {
+         flex-direction: column;
+
+     }
+     .imgfillacti
+     {
+         min-height: 240px;
+     }
+     #researchlogo
+    {
+      display: block;
+    }
+    #researchtext
+    {
+      display: none;
+    }
+    .hotelpop
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer
+    {
+        flex-direction: column;
+    }
+    #responsivemenu
+    {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        padding: 30px 0;
+        font-size: 1.2rem;
+        margin: 0;
+
+    }
+    #responsivemenu a
+    {
+        text-decoration: none;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    #responsivemenu a:hover
+    {
+        color: #0065FC;
+        border-color: #0065FC;
+    }
+
+    #actimenu, #hebmenu
+    {
+        display: none;
+    }
+    .navbar
+    {
+        justify-content: flex-end;
+        font-size: 1.3rem;
+    }
+
+}
+
+
+@media all and (max-width: 1250px)
+{
+    .hotel
+   {  
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 5px 5px;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    align-content: space-around;
+    flex-direction: column;
+    flex: 1 1 calc(60% - 40px);
+   }
+}
