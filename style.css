@@ -50,6 +50,10 @@ i.inactive
 {
     text-decoration: none;
 }
+.navbar
+{
+    color: black;
+}
 .navbar a:hover
 {
     color: #0065FC;
