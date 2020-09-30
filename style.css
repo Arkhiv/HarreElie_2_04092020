@@ -394,14 +394,12 @@ body
 {
     color: black;
 }
-.hotelpop .hname:hover
+
+.hotelpop a:hover p.hname
 {
     color: #0065FC;
 }
-.hotelpop a:hover p
-{
-    color: black;
-}
+
 
 .imgfillpop
 {
