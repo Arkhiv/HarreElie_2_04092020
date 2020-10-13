@@ -5,7 +5,8 @@
 	padding:0; 
 	box-sizing:border-box;
 }
-a{
+a
+{
     color: black;
 }
 
@@ -753,25 +754,25 @@ footer h3
          min-height: 240px;
      }
      #researchlogo
-    {
+     {
       display: block;
-    }
+     }
     #researchtext
-    {
+     {
       display: none;
-    }
+     }
     .hotelpop
-    {
+     {
         width: 100%;
         margin: 0;
-    }
+     }
 
     footer
-    {
+     {
         flex-direction: column;
-    }
+     } 
     #responsivemenu
-    {
+     {
         display: flex;
         width: 100%;
         justify-content: space-around;
@@ -779,44 +780,44 @@ footer h3
         font-size: 1.2rem;
         margin: 0;
 
-    }
+     }
     #responsivemenu a
-    {
+     {
         text-decoration: none;
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 10px;
         width: 100%;
         text-align: center;
-    }
+     }
     #responsivemenu a:hover
-    {
+     {
         color: #0065FC;
         border-color: #0065FC;
-    }
+     }
 
     #actimenu, #hebmenu
-    {
+     {
         display: none;
-    }
+     }
     .navbar
-    {
+     {
         justify-content: flex-end;
         font-size: 1.3rem;
-    }
+     }
     .research
-    {
-    background-color: #0065FC;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 0 10px 10px 0;
-    font-size: 20px;
-    text-decoration: none;
+     {
+       background-color: #0065FC;
+       color: white;
+       padding: 10px 15px;
+       border-radius: 0 10px 10px 0;
+       font-size: 20px;
+       text-decoration: none;
     
-    }
+     }
     .fa-map-marker-alt
-{
-    padding: 10px 15px;
-}
+     {
+       padding: 10px 15px;
+     }
     
 
 
